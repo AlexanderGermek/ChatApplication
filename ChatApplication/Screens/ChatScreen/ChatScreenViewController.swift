@@ -17,7 +17,7 @@ final class ChatScreenViewController: UICollectionViewController, UICollectionVi
 	private let mainLabel: UILabel = {
 		let label = UILabel()
 		label.font = .systemFont(ofSize: 18, weight: .bold)
-		label.text = "Тестовое задание"
+		label.text = "Чат"
 		label.textAlignment = .center
 		label.backgroundColor = UIColor.themableWhite
 		label.layer.shadowColor = UIColor.systemGray2.cgColor

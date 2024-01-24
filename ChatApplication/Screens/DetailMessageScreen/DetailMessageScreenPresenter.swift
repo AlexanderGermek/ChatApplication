@@ -24,6 +24,7 @@ final class DetailMessageScreenPresenter {
 	}
 }
 
+// MARK: - DetailMessageScreenPresenterProtocol
 extension DetailMessageScreenPresenter: DetailMessageScreenPresenterProtocol {
 	func didLoadView() {
 		view?.configureUI(message: message)
